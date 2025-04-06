@@ -37,22 +37,22 @@ body * {
 }
 
 body {
-    font-size: 16px;
+    font-size: 12pt;
 }
 
 h1 {
     font-weight: 600;
-    font-size: 1.66rem;
+    font-size: 1.66em;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 1.16rem;
+    font-size: 1.16em;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .emph {
@@ -142,7 +142,8 @@ body {
 /* Size, position */
 
 .doc {
-    max-width: 149mm;
+    /* max-width: 149mm; */
+    max-width: 36em;
 }
 
 p {
