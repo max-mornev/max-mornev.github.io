@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>p-adic Galois representations</title>
+        <script>MathJax={tex:{inlineMath:[['$','$']]},chtml:{scale:1.1,matchFontHeight:false}}</script>
+        <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="mbar">
+                <div class="menu">
+                    <a class="fstmenuitem" href="#">#</a><a class="menuitem" href="#refs">References</a><a class="menuitem" href="index.html">Home</a>
+                </div>
+            </div>
+            <div class="bbar" style="opacity: 1.00;"></div>
+            <div class="bbar" style="opacity: 0.92;"></div>
+            <div class="bbar" style="opacity: 0.84;"></div>
+            <div class="bbar" style="opacity: 0.76;"></div>
+            <div class="bbar" style="opacity: 0.68;"></div>
+            <div class="bbar" style="opacity: 0.60;"></div>
+            <div class="bbar" style="opacity: 0.52;"></div>
+            <div class="bbar" style="opacity: 0.44;"></div>
+            <div class="bbar" style="opacity: 0.36;"></div>
+            <div class="bbar" style="opacity: 0.28;"></div>
+            <div class="bbar" style="opacity: 0.20;"></div>
+            <div class="bbar" style="opacity: 0.12;"></div>
+            <div class="bbar" style="opacity: 0.04;"></div>
+        </div>
+        <div class="doc">
+            <h1><span class="math">p</span>-adic Galois representations</h1>
+            <p class="leader">
+                Here you can find references to the literature.
+            </p>
+            <p>
+                Lectures: <b><a href="#lec1">1</a> <a href="#lec2">2</a> <a href="#lec2">2bis</a> <a href="#lec3">3</a> <a href="#lec4">4</a> <a href="#lec5">5</a> <a href="#lec5">5bis</a></b>
+            </p>
+            <p>
+                Last modified: February 13, 2024
+            </p>
+            
+            <h2>General references</h2>
+            <p>
+                The course follows the outline of the book of Fontaine and Ouyang
+                although I shall diverge from it in many ways.
+                Another useful reference is the notes of Olivier Brinon and Brian Conrad
+                on <span class="math">p</span>-adic Hodge theory.
+            </p>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://www.math.u-psud.fr/~fontaine/galoisrep.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.-M.&nbsp;Fontaine, Y.&nbsp;Ouyang.
+                        Theory of <span class="math">p</span>-adic Galois representations.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="http://math.stanford.edu/~conrad/papers/notes.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        O.&nbsp;Brinon, B.&nbsp;Conrad.
+                        CMI summer school notes on <span class="math">p</span>-adic Hodge theory.
+                    </p>
+                </div>
+            </div>
+            
+            <a class="anchor" id="lec1"></a>
+            <h2>Lecture 1</h2>
+            <p>
+                To familiarize yourself with the language of representation theory
+                have a look at the lecture notes of Kowalski
+                <a href="https://people.math.ethz.ch/~kowalski/representation-theory.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a> [Chapter&nbsp;1, Chapter&nbsp;2, &sect;2.1&nbsp;&ndash; &sect;2.6].
+            </p>
+            <p>
+                A concise exposition of Galois theory for infinite extensions
+                is contained in Neukirch's book <a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter IV, &sect;1, &sect;2].
+                It is important to work out Example 5 in &sect;2 where Neukirch computes
+                absolute Galois groups of finite fields.
+            </p>
+            <p>
+                The book of Neukirch&nbsp;<a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter II, &sect;1]
+                also contains an excellent introduction to <span class="math">p</span>-adic numbers.
+                Hensel's lemma can be found in the same chapter.
+                An&nbsp;alternative reference for Hensel's lemma
+                is Milne's course notes&nbsp;<a href="https://www.jmilne.org/math/CourseNotes/ANT.pdf#page=122"><img class="iconfile" alt="file" src="img/file.svg"></a> [Theorem&nbsp;7.33] (version&nbsp;3.07).
+            </p>
+            <p>
+                The classical book of Silverman <a href="https://doi.org/10.1007/978-1-4757-1920-8"><img class="iconhr" alt="external link" src="img/ex.svg"></a>
+                is one of the best introductions to the theory of elliptic curves.
+                Tate modules are discussed in Chapter&nbsp;III &sect;7.
+                The trace formula of the lecture is Theorem&nbsp;2.3.1&nbsp;(b) in Chapter&nbsp;V.
+            </p>
+            <p>
+                If you have not studied elliptic curves before
+                it would be better to take all the facts I use in the lectures on faith.
+            </p>
+            
+            <a class="anchor" id="lec2"></a>
+            <h2>Lectures 2 and 2bis</h2>
+            <p>
+                Serre's book <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a> is the basic reference on local fields.
+                Chapters I and II (&sect;1&ndash;&sect;3) are especially important.
+            </p>
+            <p>
+                An alternative reference is Neukirch's book <a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter II, &sect;3, &sect;4, &sect;8, &sect;9].
+            </p>
+            <p>
+                Serre's Chapter II also contains a section on Witt vectors (&sect;5 &ndash; &sect;6).
+                This construction is of fundamental value to the course,
+                and will be discussed in detail in the coming lectures.
+            </p>
+            <p>
+                The statements on ramification of cyclotomic characters
+                follow from the theory of cyclotomic extensions.
+                Have a look at Propositions 7.12, 7.13 in Neukirch <a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;II, &sect;7]
+                and Propositions 16, 17 in Serre <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;IV, &sect;4].
+                Pay attention to the formula for cyclotomic polynomials
+                in the book of Milne <a href="https://www.jmilne.org/math/CourseNotes/ANT.pdf#page=98"><img class="iconfile" alt="file" src="img/file.svg"></a> [p.&nbsp;96] (v.&nbsp;3.07).
+            </p>
+            <p>
+                Eisenstein polynomials play a fundamental role in the theory of local fields.
+                This is discussed in Serre's book <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;I, &sect;6, Proposition&nbsp;17
+                and the following Corollary].
+            </p>
+            <p>
+                It is important to know that
+                the wild inertia subgroup of an absolute Galois group of a local
+                field is a (pro-solvable) pro-<span class="math">p</span>-group:
+                see the monographs of Neukirch
+                <a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;2, Proposition&nbsp;10.2] and Serre <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;IV, &sect;1, &sect;2].
+                Excercise&nbsp;2 in &sect;2 of Serre is especially important.
+                Extra work is necessary to deduce the claim
+                of the lecture from these facts.
+            </p>
+            <p>
+                The standard definition of a semi-stable representation is
+                Definition&nbsp;1.22 from the book of Fontaine and Ouyang
+                <a href="https://www.math.u-psud.fr/~fontaine/galoisrep.pdf#page=17"><img class="iconfile" alt="file" src="img/file.svg"></a> [p.&nbsp;11].
+                This is equivalent to the definition from the lecture thanks to Lee-Kolchin
+                theorem.
+            </p>
+            <p>
+                If you have not heard of Lee-Kolchin theorem before, it would be nice to
+                have a look at the exposition in the book of Serre <a href="https://doi.org/10.1007/978-3-540-70634-2"><img class="iconhr" alt="external link" src="img/ex.svg"></a> [Chapter&nbsp;V, &sect;3*, p.&nbsp;35, Theorem]. 
+                The&nbsp;proof relies on another important result of representation theory,
+                the density theorem of Burnside. Note that neither of these theorems are necessary for the course.
+                <b>Warning:</b> Wikipedia's version of Lee-Kolchin
+                is not the one discussed here.
+            </p>
+            <p>
+                The equivalence of the two definitions of semi-stability can be proven without
+                a recourse to Lee-Kolchin.
+            </p>
+            <p>
+                A proof of Grothendieck's monodromy theorem can be found
+                in the book of Fontaine and Ouyang <a href="https://www.math.u-psud.fr/~fontaine/galoisrep.pdf#page=17"><img class="iconfile" alt="file" src="img/file.svg"></a> [Theorem&nbsp;1.24].
+                Note that the monodromy theorem of the lecture proves a little bit more than Theorem&nbsp;1.24.
+                The difference has to do with our definition of a semi-stable representation.
+            </p>
+            
+            <a class="anchor" id="lec3"></a>
+            <h2>Lecture 3</h2>
+            <p>
+                The existence of a <span class="math">$\mathbb{Z}_\ell$</span>-lattice in every <span class="math">$\mathbb{Q}_\ell$</span>-representation is an important fact.
+                Fontaine and Ouyang <a href="https://www.math.u-psud.fr/~fontaine/galoisrep.pdf#page=8"><img class="iconfile" alt="file" src="img/file.svg"></a> mention this in Section 1.2.2,
+                see the discussion after Definition 1.7.
+                The existence follows since
+                the absolute Galois group is compact and
+                the stabilizer of every lattice is an open subgroup.
+            </p>
+            <p>
+                Unfortunately I do not have a comprehensive source for the main part of the lecture.
+            </p>
+            
+            <a class="anchor" id="lec4"></a>
+            <h2>Lecture 4</h2>
+            <p>
+                The material was borrowed from the book of Serre <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a>, although a few arguments were changed.
+                I denoted Teichm&uuml;ller representatives by the square brackets.
+                This is standard in <span class="math">p</span>-adic Hodge theory, but the notation of Serre is different.
+                The content of the lecture is covered by Chapter&nbsp;II &sect;5 and by Proposition&nbsp;8 in Chapter&nbsp;II &sect;4
+                of Serre <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a>.
+            </p>
+            
+            <a class="anchor" id="lec5"></a>
+            <h2>Lectures 5 and 5bis</h2>
+            <p>
+                I presented a version of the theorem of Katz
+                for perfect fields. Brinon-Conrad and Fontaine-Ouyang treat
+                the case of an arbitrary field of positive characteristic.
+                For this reason they work with Cohen rings rather than
+                rings of Witt vectors.
+            </p>
+            <p>
+                You can find the theorem of Katz in Part&nbsp;I &sect;3 of Brinon-Conrad <a href="http://math.stanford.edu/~conrad/papers/notes.pdf#page=26"><img class="iconfile" alt="file" src="img/file.svg"></a>.
+                We shall need the following definitions and results:
+                Definition 3.1.1, Definition 3.1.4, Lemma 3.1.7, Theorem 3.1.8, 
+                Definition 3.2.2, Lemma 3.2.4, Theorem 3.2.5, Lemmas 3.2.6 and 3.2.7.
+            </p>
+            <p>
+                An alternative source is Chapter&nbsp;2, Sections 2.2&ndash;2.3 of Fontaine-Ouyang&nbsp;<a href="https://www.math.u-psud.fr/~fontaine/galoisrep.pdf#page=25"><img class="iconfile" alt="file" src="img/file.svg"></a>.
+            </p>
+            <p>
+                The primary source is the monograph of Katz on <span class="math">p</span>-adic modular forms&nbsp;<a href="https://web.math.princeton.edu/~nmk/old/padicpropMFMS.pdf#page=74"><img class="iconfile" alt="file" src="img/file.svg"></a>, Proposition&nbsp;4.1.1.
+                This may be a bit hard to read at this stage.
+            </p>
+            
+            <h2>Lectures 6 &ndash; 12</h2>
+            <p>
+                (Coming soon)
+            </p>
+            
+            <a class="anchor" id="refs"></a>
+            <h2>References</h2>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://web.math.princeton.edu/~nmk/old/padicpropMFMS.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        N.M.&nbsp;Katz.
+                        <span class="math">p</span>-adic properties of modular schemes and modular forms.
+                        <i>Modular functions of one variable, III,</i> pp.&nbsp;69&ndash;190.
+                        Lecture Notes in Math., Vol.&nbsp;350,
+                        <i>Springer, Berlin,</i> 1973.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://people.math.ethz.ch/~kowalski/representation-theory.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        E.&nbsp;Kowalski. Representation theory. Lecture notes, ETH Z&uuml;rich &ndash; Spring Semester 2011.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://www.jmilne.org/math/CourseNotes/ANT.pdf"><img class="iconfile" alt="file" src="img/file.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.S.&nbsp;Milne. Algebraic number theory. Lecture notes, version&nbsp;3.07.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://doi.org/10.1007/978-3-662-03983-0"><img class="iconhr" alt="external link" src="img/ex.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.&nbsp;Neukirch. Algebraic number theory.
+                        Grundlehren der mathematischen Wissenschaften, Vol.&nbsp;322.
+                        <i>Springer, Berlin, Heidelberg,</i> 1999.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://doi.org/10.1007/978-1-4757-5673-9"><img class="iconhr" alt="external link" src="img/ex.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.-P.&nbsp;Serre. Local fields.
+                        Graduate Texts in Mathematics, Vol.&nbsp;67.
+                        <i>Springer, New York,</i> 1979.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://doi.org/10.1007/978-3-540-70634-2"><img class="iconhr" alt="external link" src="img/ex.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.-P.&nbsp;Serre.
+                        Lie Algebras and Lie Groups.
+                        Lecture Notes in Mathematics, Vol.&nbsp;1500.
+                        <i>Springer, Berlin, Heidelberg,</i> 1992.
+                    </p>
+                </div>
+            </div>
+            <div class="index-item">
+                <div class="index-loc">
+                    <a href="https://doi.org/10.1007/978-1-4757-1920-8"><img class="iconhr" alt="external link" src="img/ex.svg"></a>
+                </div>
+                <div class="index-text">
+                    <p>
+                        J.H.&nbsp;Silverman.
+                        The Arithmetic of Elliptic Curves.
+                        Graduate Texts in Mathematics, Vol.&nbsp;106.
+                        <i>Springer, New York,</i> 1986.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

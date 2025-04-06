@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<svg
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="750" height="870" style="fill:blue">
+    <path d="M750 0 L750 377 L650 377 L650 171 L285 535 L215 465 L579 100 L373 100 L373 0 Z"/>
+    <path d="M213 353 L213 250 L0 250 L0 750 L500 750 L500 537 L398 537 L398 648 L103 648 L103 353 Z"/>
+</svg>

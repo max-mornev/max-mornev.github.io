@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url('OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url('OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url('OpenSans-SemiBold.ttf') format('truetype');
+}
+
+/* Fonts */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    max-height:1000000px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.66rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.16rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.emph {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.math {
+    font-style: italic;
+}
+
+.mathbb {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fstmenuitem, .menuitem {
+    font-weight: 700;
+}
+
+/* Styles */
+
+html {
+    overflow-y:scroll;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mnote, .index-mnote {
+    display: inline;
+    text-align: right;
+}
+
+.index-table, .seminar-table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.index-item, .seminar-talk {
+    display: table-row;
+}
+
+.index-date, .index-loc, .index-text, .seminar-date, .seminar-speaker, .seminar-title {
+    display: table-cell;
+}
+
+.index-loc {
+    text-align: left;
+}
+
+.warn {
+    color: red;
+}
+
+.displaymath {
+    text-align: center;
+}
+
+.menu {
+    display: table;
+}
+
+a.anchor {
+    display: block;
+    visibility: hidden;
+}
+
+.mbar, .pbar {
+    background-color: #d3d0d0;
+    border: 1px solid #d3d0d0;
+}
+
+body {
+    background-color: white;
+}
+
+/* Size, position */
+
+.doc {
+    max-width: 149mm;
+}
+
+p {
+    line-height: 1.48;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mnote, .index-mnote {
+    position: absolute;
+    width: 6em;
+    margin-left: -7em;
+}
+
+.index-loc {
+    width: 1.64em;
+}
+
+.topbar, .topbar-fading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+a.anchor {
+    position: relative;
+    top: -2em;
+}
+
+.seminar-speaker {
+    width: 7.24em;
+}
+
+.seminar-date {
+    width: 3.48em;
+}
+
+.iconhr {
+    height: 0.76em;
+}
+
+.iconfile {
+    width: 0.72em;
+}
+
+.iconint {
+    width: 0.72em;
+}
+
+.pbar {
+    word-spacing: 0.72em;
+}
+
+/* Margin, padding */
+
+body, h1 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.menu {
+    margin-top: 0.18em;
+    margin-bottom: 0.18em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doc {
+    margin: 0 auto;
+}
+
+.doc {
+    padding-left: 3.44em;
+    padding-right: 3.44em;
+    padding-top: 3.48em;
+    padding-bottom: 3.48em;
+}
+
+h2, .trailer {
+    margin: 1.48em 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h3 {
+    margin: 1em 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.leader {
+    margin: 1.12em 0 0 0;
+}
+
+p, li, .displaymath {
+    margin: 0.72em 0 0 0;
+}
+
+p.index-where, p.index-remark {
+    margin: 0 0 0 0;
+}
+
+.itrq {
+    margin-left: 1pt;
+}
+
+.seminar-speaker, .seminar-title {
+    padding-left: 1em;
+}
+
+.menuitem {
+    margin-left: 1.64em;
+}
+
+.pbar {
+    padding-top: 0.48em;
+    padding-bottom: 0.48em;
+    padding-left: 0.48em;
+    padding-right: 0;
+}
+
+/* Indicators */
+
+.bbar {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+
