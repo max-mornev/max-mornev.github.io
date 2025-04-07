@@ -37,7 +37,7 @@ body * {
 }
 
 body {
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 h1 {
@@ -71,6 +71,7 @@ h3 {
 
 .fstmenuitem, .menuitem {
     font-weight: 700;
+    font-size: 1.16em;
 }
 
 /* Styles */
@@ -205,7 +206,14 @@ a.anchor {
 
 body, h1 {
     margin: 0 0 0 0;
+}
+
+body {
     padding: 0 0 0 0;
+}
+
+h1 {
+    padding: 0 0 0.48em 0;
 }
 
 .menu {
@@ -222,11 +230,11 @@ body, h1 {
 .doc {
     padding-left: 3.44em;
     padding-right: 3.44em;
-    padding-top: 3.48em;
+    padding-top: 4.48em;
     padding-bottom: 3.48em;
 }
 
-h2, .trailer {
+h2 /*, .trailer */ {
     margin: 1.48em 0 0 0;
     padding: 0 0 0 0;
 }
@@ -236,9 +244,9 @@ h3 {
     padding: 0 0 0 0;
 }
 
-.leader {
+/* .leader {
     margin: 1.12em 0 0 0;
-}
+} */
 
 p, li, .displaymath {
     margin: 0.72em 0 0 0;
@@ -257,7 +265,8 @@ p.index-where, p.index-remark {
 }
 
 .menuitem {
-    margin-left: 1.64em;
+    /* margin-left: 1.64em; */
+    margin-left: 1.78em;
 }
 
 .pbar {
