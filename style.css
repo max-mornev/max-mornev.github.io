@@ -26,6 +26,19 @@
     src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
 }
 
+/* Base size */
+@media (min-width: 624px) {
+    html {
+        font-size: 14pt;
+    }
+}
+ 
+@media (max-width: 623px) {
+    html {
+        font-size: 20pt;
+    }
+}
+
 /* Fonts */
 
 body {
@@ -36,9 +49,9 @@ body * {
     max-height:1000000px;
 }
 
-body {
+/*body {
     font-size: 14pt;
-}
+}*/
 
 h1 {
     font-weight: 600;
