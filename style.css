@@ -92,14 +92,9 @@ a {
     text-decoration: none;
 }
 
-.mnote, .index-mnote {
+.mnote, .inote {
     display: inline;
     text-align: right;
-}
-
-.index-table, .seminar-table {
-    display: table;
-    border-collapse: collapse;
 }
 
 .index-item, .seminar-talk {
@@ -143,7 +138,7 @@ body {
 /* Size, position */
 
 .doc {
-    max-width: 36em;
+    max-width: 36.52em;
 }
 
 p {
@@ -154,10 +149,18 @@ img {
     max-width: 100%;
 }
 
-.mnote, .index-mnote {
+.mnote, .inote {
     position: absolute;
+}
+
+.mnote {
     width: 6em;
     margin-left: -7em;
+}
+
+.inote {
+    width: 1em;
+    margin-left: -1.92em;
 }
 
 .index-loc {
