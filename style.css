@@ -270,6 +270,10 @@ p.index-where, p.index-remark {
     padding-right: 0;
 }
 
+.warning {
+    color: red;
+}
+
 /* Indicators */
 
 .bbar {
