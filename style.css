@@ -21,9 +21,23 @@
 
 @font-face {
     font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
     src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 600;
+    src: url('fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
 }
 
 /* Fonts */
@@ -55,18 +69,8 @@ h3 {
     font-size: 1em;
 }
 
-.emph {
-    font-style: normal;
-    font-weight: 700;
-}
-
 .math {
     font-style: italic;
-}
-
-.mathbb {
-    font-style: normal;
-    font-weight: 700;
 }
 
 .fstmenuitem, .menuitem {
