@@ -21,23 +21,9 @@
 
 @font-face {
     font-family: "Open Sans";
-    font-style: italic;
-    font-weight: 700;
-    src: url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
     src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "Open Sans";
-    font-style: italic;
-    font-weight: 600;
-    src: url('fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
 }
 
 /* Fonts */
