@@ -75,7 +75,11 @@ h1 {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: solid 1pt underline;
+}
+
+a.fstmenuitem:hover, a.menuitem:hover {
+    text-decoration: solid 1.66pt underline;
 }
 
 a {
@@ -116,7 +120,7 @@ a.anchor {
     visibility: hidden;
 }
 
-.mbar, .pbar {
+.mbar {
     background-color: #d3d0d0;
     border: 1px solid #d3d0d0;
 }
@@ -190,10 +194,6 @@ a.anchor {
     width: 0.72em;
 }
 
-.pbar {
-    word-spacing: 0.72em;
-}
-
 /* Margin, padding */
 
 body, h1 {
@@ -251,13 +251,6 @@ p.index-where, p.index-remark {
 
 .menuitem {
     margin-left: 1.78em;
-}
-
-.pbar {
-    padding-top: 0.48em;
-    padding-bottom: 0.48em;
-    padding-left: 0.48em;
-    padding-right: 0;
 }
 
 .warning {
