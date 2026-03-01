@@ -32,27 +32,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-body * {
-    max-height:1000000px;
-}
-
 body {
     font-size: 14pt;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.66em;
 }
 
 h2 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.16em;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 1em;
 }
 
 .math {
@@ -70,8 +61,27 @@ html {
     overflow-y:scroll;
 }
 
+body {
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbar {
+    background-color: #d3d0d0;
+    border: 1px solid #d3d0d0;
+}
+
 h1 {
     text-align: center;
+}
+
+h2 {
+    border-bottom: 1.5px solid silver;
 }
 
 a:hover {
@@ -91,16 +101,8 @@ a {
     text-align: right;
 }
 
-.index-item, .seminar-talk {
-    display: table-row;
-}
-
-.index-date, .index-loc, .index-text, .seminar-date, .seminar-speaker, .seminar-title {
-    display: table-cell;
-}
-
-.index-loc {
-    text-align: left;
+.seminar-talk {
+    display: flex;
 }
 
 .warn {
@@ -111,28 +113,37 @@ a {
     text-align: center;
 }
 
-.menu {
-    display: table;
-}
-
 a.anchor {
     display: block;
     visibility: hidden;
 }
 
-.mbar {
-    background-color: #d3d0d0;
-    border: 1px solid #d3d0d0;
+a {
+    color: rgb(0,160,220);
 }
 
-body {
+.bbar {
     background-color: white;
+    width: 100%;
+    height: 1px;
+}
+
+.warning {
+    color: red;
 }
 
 /* Size, position */
 
+body * {
+    max-height:1000000px;
+}
+
 .doc {
-    max-width: 32em;
+    max-width: 50.72rem;
+}
+
+.menu {
+    height: 2.48rem;
 }
 
 p {
@@ -154,11 +165,7 @@ img {
 
 .inote {
     width: 1em;
-    margin-left: -1.92em;
-}
-
-.index-loc {
-    width: 1.64em;
+    margin-left: -2.06em;
 }
 
 .topbar {
@@ -174,12 +181,14 @@ a.anchor {
     top: -2em;
 }
 
-.seminar-speaker {
-    width: 7.24em;
+.seminar-date {
+    min-width: 7.24ch;
+    max-width: 7.24ch;
 }
 
-.seminar-date {
-    width: 3.48em;
+.seminar-speaker {
+    max-width: 7.92em;
+    min-width: 7.92em;
 }
 
 .iconhr {
@@ -196,16 +205,15 @@ a.anchor {
 
 /* Margin, padding */
 
-body, h1 {
+body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 
-.menu {
-    margin-top: 0.18em;
-    margin-bottom: 0.18em;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    margin: 0 0.48em 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .doc {
@@ -213,60 +221,51 @@ body, h1 {
 }
 
 .doc {
-    padding-left: 3.44em;
-    padding-right: 3.44em;
-    padding-top: 4.48em;
-    padding-bottom: 3.48em;
+    padding: 4.48em 0 3.48em 0;
+}
+
+h1 {
+    margin-bottom: 1.94rem;
+}
+
+h1, p, .seminar-talk {
+    padding-left: 3.92rem;
+    padding-right: 3.92rem;
 }
 
 h2 {
-    margin: 1.48em 0 0 0;
-    padding: 0 0 0 0;
-}
+    margin-top: 2.52em;
+    margin-bottom: 1.12em;
 
-h3 {
-    margin: 1em 0 0 0;
-    padding: 0 0 0 0;
-}
+    margin-left: 2.72rem;
+    margin-right: 3.92rem;
 
-.leader {
-    margin: 1.72em 0 0 0;
-}
-
-.skip {
-    margin: 3.44em 0 0 0;
+    padding-left: 1.24rem;
+    padding-bottom: 0.24em;
 }
 
 p, li, .displaymath {
     margin: 0.72em 0 0 0;
 }
 
-p.index-where, p.index-remark {
-    margin: 0 0 0 0;
+.leader {
+    margin-top: 0;
 }
 
-.itrq {
-    margin-left: 1pt;
+.skip {
+    margin: 3.44em 0 0 0;
+}
+
+.seminar-talk {
+    margin-top: 1.12em;
 }
 
 .seminar-speaker, .seminar-title {
-    padding-left: 1em;
+    padding-left: 1.12em;
 }
 
 .menuitem {
     margin-left: 1.78em;
-}
-
-.warning {
-    color: red;
-}
-
-/* Indicators */
-
-.bbar {
-    background-color: white;
-    width: 100%;
-    height: 1px;
 }
 
 /* Printing */
